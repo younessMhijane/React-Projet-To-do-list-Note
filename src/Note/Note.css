@@ -1,0 +1,97 @@
+
+.note{
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 60%;
+    background-color: rgb(252, 243, 126);
+    box-shadow: 2px 2px 20px 1px rgb(255, 237, 79);
+
+}
+.note h2{
+    margin-top: 5px;
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 18px;
+}
+.note .formNote{
+    margin: 20px;
+    border: 1px solid black;
+    height: 80%;
+    background-color: rgb(255, 248, 154);
+
+}
+.note .InputNote{
+    margin: 10px 20px;
+    display: flex;
+    justify-content: center;
+    height: 42px;
+    background-color: rgba(255, 240, 30, 0.89);
+    border: 1px solid rgb(214, 202, 27);
+    border-radius: 3px;
+    
+}
+.note .InputNote input{ 
+    border-radius: 20px;
+    width: 98%;
+    height: 36px;
+    display: flex;
+    justify-content: center;
+    margin-top: 2px;
+    background-color: rgb(255, 250, 182);
+    padding-left: 10px;
+    
+}
+.note .InputNote input::placeholder{
+    text-align: center;
+    color:rgb(107, 104, 58) ;
+ }
+.note .InputNote input::content{
+    border:rgb(107, 104, 58) ;
+ }
+ .note .noteList{
+    margin: 0 20px;
+    height: 85%;
+    word-wrap: break-word;
+    overflow-y: scroll;
+    position: relative;
+    
+ }
+ .note .noteList::-webkit-scrollbar{
+    width: 8px;
+ }
+ .note .noteList .noteItem{
+    border: 1px solid black;
+    padding: 5px 1px 5px 10px;
+    height: 80px;
+    margin-bottom: 10px;
+    background-color: rgb(252, 243, 126);
+
+
+ }
+ .note .noteList .noteItem h3{
+    border-bottom: 1px solid black;
+    width: 300px; 
+   
+    
+ }
+ .note .noteList .noteItem p{
+    padding-top: 10px; 
+ }
+ .note .noteList .noteItem .menuNote{
+    display: flex;
+
+ }
+ .note .noteList .noteItem .menuNote .menu{
+    margin-left: 40%;
+
+ }
+ .note img{
+    position: relative;
+    display: block;
+    margin: 0 auto 0 auto;
+    margin-top:-60px;
+    width: 100px;
+    filter: drop-shadow(3px -2px 3px rgb(44, 44, 44));
+    bottom: -15px;
+    left: 15px;
+ }

@@ -1,0 +1,88 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.todolist{
+        border: 1px solid black;
+        width: 30%;
+        margin: 0 2% 0 0;
+        border-radius: 10px;
+        box-shadow: 2px 2px 30px 5px rgb(255, 237, 79);
+        position: relative;
+        background-color: rgb(255, 248, 154);
+
+}
+.todolist button{
+    margin-left: auto; 
+    display: block; 
+    margin-right: 10px;
+}
+.todolist h2{
+    margin-top: 5px;
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 18px;
+}
+.todolist .TodoSelect{
+    height: 58%;
+    overflow-y: scroll;
+    overflow-x: hidden; 
+}
+.todolist .TodoSelect::-webkit-scrollbar{
+    width: 8px;
+}
+.todolist .TodoDelete::-webkit-scrollbar{
+    width: 8px;
+}
+.todolist .TodoSelect p{
+    text-decoration: underline;
+}
+
+.todolist .TodoSelect p label{
+    margin-left:5px ;
+    white-space: normal;
+    word-wrap: break-word;
+}
+.todolist .TodoDelete{
+    border-top: 1px solid black;
+    height: 20%;
+    overflow-y: scroll;
+    overflow-x: hidden; 
+}
+.todolist .InputTodo{
+    margin-left: 5px;
+    width: 90%;
+}
+.todolist .TodoInput{
+    background-color: rgb(252, 243, 126);
+    margin: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.todolist .TodoInput input{
+    border-radius: 3px;
+    margin: 5px;
+    border: 1px solid black;
+    font-size: 15px;
+    padding-left: 5px;
+}
+.todolist .TodoInput input:focus{
+    border: 2px solid rgb(109, 98, 0);
+    outline: none;
+}
+.todolist .TodoInput input::placeholder{
+    text-align: center;
+}
+.todolist .TodoListSelect{
+    border-radius: 5px;
+    padding: 10px;
+    background-color: rgb(252, 243, 126);
+    margin: 5px;
+    min-height: 40px;
+}
+.todolist .TodoListDelete{
+    border-radius: 5px;
+    padding: 10px;
+    background-color: rgb(252, 126, 126);
+    margin: 5px;
+    min-height: 40px;
+}
